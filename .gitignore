@@ -1,0 +1,4 @@
+intern/node_modules
+public/node_modules
+public/node_modules/*
+intern/node_modules/*

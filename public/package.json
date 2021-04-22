@@ -1,0 +1,19 @@
+{
+	"name": "wirdsgeblockt-public",
+	"version": "1.0.0",
+	"description": "Wirdsgeblock public webserver",
+	"main": "app.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon app.ts"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"express-handlebars": "^5.3.0",
+		"mongodb": "^3.6.5",
+		"request": "^2.88.2"
+	}
+}

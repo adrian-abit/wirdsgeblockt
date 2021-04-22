@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wirdsgeblockt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="/blocklist" id="tlurl">zur Blockliste &#10143;</a>
+    <h1 id="header">Wird <span id="headerurl">diese Website</span> geblockt?</h1>
+
+    <div id="userinput">
+        <a>www.</a>
+        <input id="url" type="text">
+        <button id="submit" type="submit">test</button>
+    </div>
+
+    <div id="results">
+        <h2>Deine Ergebnisse:</h2>
+        <a id="result"></a>
+    </div>
+
+    <div id="infos">
+        <h2>Worum gehts?</h2>
+        <a>
+            Seit dem 11. März 2021 sperren "die Großen" Internetserviceprovider im Auftrag der Clearingstelle
+            Urheberrecht im Internet (CUII) mit sogenannten DNS-Sperren Websiten, welche laut CUII als "strukturell
+            urheberrechtsverletzend" eingestuft werden.
+        </a>
+        <h2>Wo liegt das Problem?</h2>
+        <a>
+            Früher waren Netzsperren nur durch gerichtliche Anordnungen möglich. Die CUII hat nun die Macht solche
+            Sperren außergerichtlich und nach ihrem Ermessen zu verteilen. Dies gibt ihnen nun die Möglichkeit Seiten
+            welche ihrer Meinung nicht gefallen oder kein Urheberrecht verletzen zu sperren.
+        </a>
+        <h2>Mehr Infos?</h2>
+        <a>
+            Hier findet man mehr Infos zum Thema:<br>
+            <a href="https://www.teltarif.de/internetsperren-clearingstelle-cuii/news/84003.html">Artikel von
+                teltarif.de</a>
+            <br><a
+                href="https://netzpolitik.org/2021/edit-policy-die-cuii-initiative-private-netzsperren-ohne-gerichtsbeschluss/">Artikel
+                von netzpolitik.org</a>
+            <br><a href="https://www.youtube.com/watch?v=DSDjgK9PdTE">Video von Kanzlei WBS</a>
+            <br><a
+                href="https://playfront.de/bundesverband-game-unterstuetzt-umstrittenes-cuii-projekt-massenhafte-abschaltung-von-webseiten-droht/">Artikel
+                von playfront.de</a>
+            <br><a
+                href="https://www.hardwareluxx.de/index.php/news/allgemein/netzpolitik/55673-clearingstelle-urheberrecht-im-internet-cuii-gestartet.html">Artikel
+                von hardwareluxx.de</a>
+        </a>
+        <h2>Wozu der Test?</h2>
+        <a>Hier kann man Testen ob eine Website von der CUII geblockt wird oder nicht. Sollte eine Website geblockt
+            werden, wird sie abgespeichert und in der <a href="/blocklist">Blockliste</a></a><a> zu finden sein.</a>
+        <h2>Wie kann ich dieses Sperren umgehen?</h2>
+        <a>Ich empfehle dir deinen DNS-Server auf den von Cloudflare zu ändern. Wie das geht findest du <a
+                href="https://1.1.1.1/de-DE/dns/#help-initial-hidden">hier</a></a>
+    </div>
+    <a id="identifier"> - wirdsgeblockt v0.1b design v0.1a - last sign of life: {{sol}}s -</a>
+    <script src="jquery.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
